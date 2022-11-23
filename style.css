@@ -1,0 +1,162 @@
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .carte_joueur { grid-area: 1 / 1 / 3 / 3;}
+    .main_croupier { grid-area: 1 / 3 / 2 / 13; text-align:center; }
+    .nbr_main_croupier_2 { grid-area: 2 / 3 / 3 / 4; }
+    .nbr_main_croupier_3 { grid-area: 2 / 4 / 3 / 5; }
+    .nbr_main_croupier_4 { grid-area: 2 / 5 / 3 / 6; }
+    .nbr_main_croupier_5 { grid-area: 2 / 6 / 3 / 7; }
+    .nbr_main_croupier_6 { grid-area: 2 / 7 / 3 / 8; }
+    .nbr_main_croupier_7 { grid-area: 2 / 8 / 3 / 9; }
+    .nbr_main_croupier_8 { grid-area: 2 / 9 / 3 / 10; }
+    .nbr_main_croupier_9 { grid-area: 2 / 10 / 3 / 11; }
+    .nbr_main_croupier_10 { grid-area: 2 / 11 / 3 / 12; }
+    .nbr_main_croupier_A { grid-area: 2 / 12 / 3 / 13; }
+
+
+.parent2 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+    }
+
+    .rester{
+        background-color: rgb(69, 254, 69);
+    }
+
+    .tirer{
+        background-color: rgb(221, 110, 110);
+    }
+
+    .doubler{
+        background-color: rgb(255, 213, 0);
+    }
+    
+    .spliter{
+        background-color: rgb(82, 82, 247);
+    }
+
+    .parent2 div{
+        border: solid;
+    }
+
+
+    .div1 { grid-area: 1 / 1 / 2 / 3; }
+    .div2 { grid-area: 2 / 1 / 3 / 3; }
+    .div3 { grid-area: 3 / 1 / 4 / 3; }
+    .div4 { grid-area: 4 / 1 / 5 / 3; }
+    .div5 { grid-area: 5 / 1 / 6 / 3; }
+    .div6 { grid-area: 6 / 1 / 7 / 3; }
+    .div7 { grid-area: 7 / 1 / 8 / 3; }
+    .div8 { grid-area: 8 / 1 / 9 / 3; }
+    .div9 { grid-area: 9 / 1 / 10 / 3; }
+    .div10 { grid-area: 1 / 3 / 2 / 4; }
+    .div11 { grid-area: 1 / 4 / 2 / 5; }
+    .div12 { grid-area: 1 / 5 / 2 / 6; }
+    .div13 { grid-area: 1 / 6 / 2 / 7; }
+    .div14 { grid-area: 1 / 7 / 2 / 8; }
+    .div15 { grid-area: 1 / 8 / 2 / 9; }
+    .div16 { grid-area: 1 / 9 / 2 / 10; }
+    .div17 { grid-area: 1 / 10 / 2 / 11; }
+    .div18 { grid-area: 1 / 11 / 2 / 12; }
+    .div19 { grid-area: 1 / 12 / 2 / 13; }
+    .div20 { grid-area: 2 / 3 / 3 / 4; }
+    .div21 { grid-area: 2 / 4 / 3 / 5; }
+    .div22 { grid-area: 2 / 5 / 3 / 6; }
+    .div23 { grid-area: 2 / 6 / 3 / 7; }
+    .div24 { grid-area: 2 / 7 / 3 / 8; }
+    .div25 { grid-area: 2 / 8 / 3 / 9; }
+    .div26 { grid-area: 2 / 9 / 3 / 10; }
+    .div27 { grid-area: 2 / 10 / 3 / 11; }
+    .div28 { grid-area: 2 / 11 / 3 / 12; }
+    .div29 { grid-area: 2 / 12 / 3 / 13; }
+    .div30 { grid-area: 3 / 3 / 4 / 4; }
+    .div31 { grid-area: 3 / 4 / 4 / 5; }
+    .div32 { grid-area: 3 / 5 / 4 / 6; }
+    .div33 { grid-area: 3 / 6 / 4 / 7; }
+    .div34 { grid-area: 3 / 7 / 4 / 8; }
+    .div35 { grid-area: 3 / 8 / 4 / 9; }
+    .div36 { grid-area: 3 / 9 / 4 / 10; }
+    .div37 { grid-area: 3 / 10 / 4 / 11; }
+    .div38 { grid-area: 3 / 11 / 4 / 12; }
+    .div39 { grid-area: 3 / 12 / 4 / 13; }
+    .div40 { grid-area: 4 / 3 / 5 / 4; }
+    .div41 { grid-area: 4 / 4 / 5 / 5; }
+    .div42 { grid-area: 4 / 5 / 5 / 6; }
+    .div43 { grid-area: 4 / 6 / 5 / 7; }
+    .div44 { grid-area: 4 / 7 / 5 / 8; }
+    .div45 { grid-area: 4 / 8 / 5 / 9; }
+    .div46 { grid-area: 4 / 9 / 5 / 10; }
+    .div47 { grid-area: 4 / 10 / 5 / 11; }
+    .div48 { grid-area: 4 / 11 / 5 / 12; }
+    .div49 { grid-area: 4 / 12 / 5 / 13; }
+    .div50 { grid-area: 5 / 3 / 6 / 4; }
+    .div51 { grid-area: 5 / 4 / 6 / 5; }
+    .div52 { grid-area: 5 / 5 / 6 / 6; }
+    .div53 { grid-area: 5 / 6 / 6 / 7; }
+    .div54 { grid-area: 5 / 7 / 6 / 8; }
+    .div55 { grid-area: 5 / 8 / 6 / 9; }
+    .div56 { grid-area: 5 / 9 / 6 / 10; }
+    .div57 { grid-area: 5 / 10 / 6 / 11; }
+    .div58 { grid-area: 5 / 11 / 6 / 12; }
+    .div59 { grid-area: 5 / 12 / 6 / 13; }
+    .div60 { grid-area: 6 / 3 / 7 / 4; }
+    .div61 { grid-area: 6 / 4 / 7 / 5; }
+    .div62 { grid-area: 6 / 5 / 7 / 6; }
+    .div63 { grid-area: 6 / 6 / 7 / 7; }
+    .div64 { grid-area: 6 / 7 / 7 / 8; }
+    .div65 { grid-area: 6 / 8 / 7 / 9; }
+    .div66 { grid-area: 6 / 9 / 7 / 10; }
+    .div67 { grid-area: 6 / 10 / 7 / 11; }
+    .div68 { grid-area: 6 / 11 / 7 / 12; }
+    .div69 { grid-area: 6 / 12 / 7 / 13; }
+    .div70 { grid-area: 7 / 3 / 8 / 4; }
+    .div71 { grid-area: 7 / 4 / 8 / 5; }
+    .div72 { grid-area: 7 / 5 / 8 / 6; }
+    .div73 { grid-area: 7 / 6 / 8 / 7; }
+    .div74 { grid-area: 7 / 7 / 8 / 8; }
+    .div75 { grid-area: 7 / 8 / 8 / 9; }
+    .div76 { grid-area: 7 / 9 / 8 / 10; }
+    .div77 { grid-area: 7 / 10 / 8 / 11; }
+    .div78 { grid-area: 7 / 11 / 8 / 12; }
+    .div79 { grid-area: 7 / 12 / 8 / 13; }
+    .div80 { grid-area: 8 / 3 / 9 / 4; }
+    .div81 { grid-area: 8 / 4 / 9 / 5; }
+    .div82 { grid-area: 8 / 5 / 9 / 6; }
+    .div83 { grid-area: 8 / 6 / 9 / 7; }
+    .div84 { grid-area: 8 / 7 / 9 / 8; }
+    .div85 { grid-area: 8 / 8 / 9 / 9; }
+    .div86 { grid-area: 8 / 9 / 9 / 10; }
+    .div87 { grid-area: 8 / 10 / 9 / 11; }
+    .div88 { grid-area: 8 / 11 / 9 / 12; }
+    .div89 { grid-area: 8 / 12 / 9 / 13; }
+    .div90 { grid-area: 9 / 3 / 10 / 4; }
+    .div91 { grid-area: 9 / 4 / 10 / 5; }
+    .div92 { grid-area: 9 / 5 / 10 / 6; }
+    .div93 { grid-area: 9 / 6 / 10 / 7; }
+    .div94 { grid-area: 9 / 7 / 10 / 8; }
+    .div95 { grid-area: 9 / 8 / 10 / 9; }
+    .div96 { grid-area: 9 / 9 / 10 / 10; }
+    .div97 { grid-area: 9 / 10 / 10 / 11; }
+    .div98 { grid-area: 9 / 11 / 10 / 12; }
+    .div99 { grid-area: 9 / 12 / 10 / 13; }
